@@ -96,7 +96,7 @@ Having selected the second alignment as our target-of-choice, we now desire more
 alignment_of_interest = get_full_alignment(hhs_file, 2)
 ```
 The HTML formatted output looks like the example below. As you can see, **h**elices and sh**e**ets are colorized. 
-> <img src="https://raw.githubusercontent.com/MrRedPandabaer/hhsearch-python/master/example_alignment.jpg" width="800">
+> <img src="https://raw.githubusercontent.com/TimDemtr/hhsearch-python/master/example_alignment.jpg" width="800">
 
 
 
@@ -141,7 +141,7 @@ These images are stored into the `/lastrun/` folder, as well as in the folder `/
 
 | Zoom | No-Zoom|
 | ------ | ------ |
-| <img src="https://raw.githubusercontent.com/MrRedPandabaer/hhsearch-python/master/main_zoom.png" width="500"> | <img src="https://raw.githubusercontent.com/MrRedPandabaer/hhsearch-python/master/no_zoom.png" width="500">
+| <img src="https://raw.githubusercontent.com/TimDemtr/hhsearch-python/master/main_zoom.png" width="500"> | <img src="https://raw.githubusercontent.com/TimDemtr/hhsearch-python/master/no_zoom.png" width="500">
 
 ```
 aln_term_1 is represented as cartoon, red.
@@ -167,7 +167,7 @@ pymol_alignment(pdb_1,
 Be aware, with each run, the lastrun folder's animation subfolder will always be cleared, so there's no confusion in case one runs one time with the animation feature, and in the next run without it. 
 
 >  ```# Example for animation = True, framemultiplier = 4 of our example```
-> <img src="https://raw.githubusercontent.com/MrRedPandabaer/hhsearch-python/master/animation_zoom.gif" width="500">
+> <img src="https://raw.githubusercontent.com/TimDemtr/hhsearch-python/master/animation_zoom.gif" width="500">
 
 ## Barplots of chosen spans
 At last, we want to create a barplot of the frequencies of the amino acids within our query based on the [HHMs](https://en.wikipedia.org/wiki/Hidden_Markov_model), as well as in our chosen hit. For that, we first need to extract the frequencies of the `.hhm` file. This gives us a pandas.DataFrame with all the frequencies normed to one, calculated on information of the [HHSuit Wiki](https://github.com/soedinglab/hh-suite/wiki).```
@@ -217,11 +217,11 @@ plot_frequencies(hit_frequencies, # the pd.DataFrames of the frequencies
 
 | Query : d1e0ta1, 1-50, min. 10% | Hit : d2vgba1, 1-50, min. 10% | 
 | - | - |
-|<img src="https://raw.githubusercontent.com/MrRedPandabaer/hhsearch-python/master/query_barplot.png" width = "400">| <img src="https://raw.githubusercontent.com/MrRedPandabaer/hhsearch-python/master/hit_barplot.png" width = "400">| 
+|<img src="https://raw.githubusercontent.com/TimDemtr/hhsearch-python/master/query_barplot.png" width = "400">| <img src="https://raw.githubusercontent.com/TimDemtr/hhsearch-python/master/hit_barplot.png" width = "400">| 
 
 -----
 
 #### Contact Information: 
-| Telegram | Email 
-|-|-|
-[<img src="https://telegram.org/img/t_logo.png" width = 40>](https://t.me/MrRedPanda)| [<img src="https://www.witopia.com/wp-content/uploads/flat-email-icon.png" width = 40>](mailto:"tim@besonders.net") 
+| Email |
+|-|
+[<img src="https://www.witopia.com/wp-content/uploads/flat-email-icon.png" width = 40>](mailto:"tim.demtroeder@uni-bayreuth.de") 
